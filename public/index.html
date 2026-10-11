@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BubbleRover | Mobile Car Detailing &amp; Trash Can Cleaning</title>
-<meta name="description" content="BubbleRover rides to you on a scooter. Full car detailing for $50 and trash can cleaning for $15 per can.">
-<meta property="og:title" content="BubbleRover | Mobile Car Detailing &amp; Trash Can Cleaning">
-<meta property="og:description" content="Full car detail $50. Trash can cleaning $15 per can. We come to you!">
+<title>BubbleRover | Mobile Car Detailing &amp; Trash Can / Roadside Bin Cleaning</title>
+<meta name="description" content="BubbleRover rides to you on a scooter in Wallingford, CT. Full car detailing for $50 and trash can / roadside bin cleaning for $15 each.">
+<meta property="og:title" content="BubbleRover | Mobile Car Detailing &amp; Trash Can / Roadside Bin Cleaning">
+<meta property="og:description" content="Full car detail $50. Trash can / roadside bin cleaning $15 each. We come to you!">
 <meta property="og:image" content="https://bubblerover.com/logo.png">
 <meta name="theme-color" content="#0B3D91">
 <link rel="icon" href="/logo-mark.svg" type="image/svg+xml">
@@ -139,9 +139,10 @@
         </div>
         <div class="price">
           <div class="icon" aria-hidden="true">🗑️</div>
-          <h3>Trash Can Cleaning</h3>
-          <div class="amt">$15 <small>per can</small></div>
+          <h3>Trash Can / Roadside Bin Cleaning</h3>
+          <div class="amt">$15 <small>per can or bin</small></div>
           <ul>
+            <li>Includes large roadside bins</li>
             <li>Scrubbed inside and out</li>
             <li>Rinsed and deodorized</li>
             <li>Bye-bye smell and bugs</li>
@@ -157,7 +158,7 @@
       <h2>How it works</h2>
       <div class="steps">
         <div class="step"><h3>Book</h3><p>Text (475) 318-2616 with your address and a day that works.</p></div>
-        <div class="step"><h3>We roll up</h3><p>BubbleRover scoots over with everything needed. Just have a hose nearby.</p></div>
+        <div class="step"><h3>We roll up</h3><p>BubbleRover scoots over with the cleaning supplies. You provide a water hose and an electrical outlet.</p></div>
         <div class="step"><h3>Enjoy the shine</h3><p>Pay when you're happy. Cash or Venmo accepted.</p></div>
       </div>
     </div>
@@ -177,20 +178,20 @@
     <div class="wrap">
       <div class="card">
         <h2>Ready for a sparkle?</h2>
-        <p id="book-intro">Text or call <strong>(475) 318-2616</strong> to book your car detail or trash can cleaning. Serving the neighborhood and nearby towns.</p>
+        <p id="book-intro">Text or call <strong>(475) 318-2616</strong> to book your car detail or trash can / roadside bin cleaning. Serving select areas of Wallingford. You provide a hose and an electrical outlet. Logan confirms every booking by text.</p>
         <div class="contact">
           <a class="btn" href="sms:+14753182616">📱 Text to book</a>
           <a class="btn ghost" href="tel:+14753182616">📞 Call (475) 318-2616</a>
         </div>
         <div class="scheduler" id="scheduler" hidden></div>
-        <p class="note">Car detail $50 · Trash cans $15 each</p>
+        <p class="note">Car detail $50 · Trash cans / bins $15 each</p>
       </div>
     </div>
   </section>
 </main>
 
 <footer>
-  <div class="wrap">© <span id="yr">2026</span> BubbleRover · Mobile car detailing and trash can cleaning</div>
+  <div class="wrap">© <span id="yr">2026</span> BubbleRover · Mobile car detailing and trash can / roadside bin cleaning</div>
 </footer>
 
 <script>
@@ -203,7 +204,7 @@
     f.src = BOOKING_URL; f.title = 'Pick a time with BubbleRover'; f.loading = 'lazy';
     box.appendChild(f); box.hidden = false;
     document.getElementById('book-intro').innerHTML =
-      'Pick an open time below, or text or call <strong>(475) 318-2616</strong>. Serving the neighborhood and nearby towns.';
+      'Pick an open time below, or text or call <strong>(475) 318-2616</strong>. Serving select areas of Wallingford. You provide a hose and an electrical outlet. Logan confirms every booking by text.';
   }
   document.getElementById('yr').textContent = new Date().getFullYear();
   const hero = document.querySelector('.hero');
