@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="BubbleRover logo" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B3D91"/><stop offset="1" stop-color="#14A3D9"/>
+    </linearGradient>
+    <radialGradient id="bub" cx="35%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".55" stop-color="#E6FBFF" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".15"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="96" fill="url(#bg)"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#B6F23A" stroke-width="4"/>
+  <!-- bubbles -->
+  <g stroke="#fff" stroke-width="2.5">
+    <circle cx="70" cy="62" r="20" fill="url(#bub)"/>
+    <circle cx="104" cy="44" r="11" fill="url(#bub)"/>
+    <circle cx="46" cy="96" r="9" fill="url(#bub)"/>
+    <circle cx="96" cy="76" r="6" fill="url(#bub)"/>
+  </g>
+  <path d="M63 54 a10 10 0 0 1 9 -6" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <!-- sparkle -->
+  <path d="M136 22 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z" fill="#B6F23A"/>
+  <!-- scooter -->
+  <g stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M128 72 L146 140" stroke-width="7"/>
+    <path d="M118 70 L140 68" stroke-width="7"/>
+    <path d="M58 140 L146 140" stroke-width="9"/>
+    <path d="M146 140 L150 148" stroke-width="5"/>
+  </g>
+  <g fill="#0B3D91" stroke="#fff" stroke-width="5">
+    <circle cx="62" cy="152" r="12"/>
+    <circle cx="150" cy="152" r="12"/>
+  </g>
+  <g fill="#B6F23A"><circle cx="62" cy="152" r="4"/><circle cx="150" cy="152" r="4"/></g>
+  <!-- speed lines -->
+  <g stroke="#B6F23A" stroke-width="4" stroke-linecap="round">
+    <path d="M30 128 H46"/><path d="M24 140 H44"/><path d="M32 152 H44"/>
+  </g>
+</svg>
